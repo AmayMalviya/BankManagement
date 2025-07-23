@@ -135,7 +135,7 @@ public class DashBoard extends javax.swing.JFrame {
 
     private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
         // TODO add your handling code here:
-        new IncorrectPopUp().setVisible(true);      // "IncorrectPopUp" Replace with "SearchJFrame"
+        new SearchFrame().setVisible(true);      // "IncorrectPopUp" Replace with "SearchJFrame"
             this.dispose();
     }//GEN-LAST:event_searchActionPerformed
 
