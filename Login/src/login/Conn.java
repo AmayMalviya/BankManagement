@@ -15,7 +15,7 @@ public class Conn {
             // The connection URL string: jdbc:mysql://hostname:port/databaseName
             String url = "jdbc:mysql://localhost:3306/bankmanagementsystem";
             String username = "root"; // Your MySQL username
-            String password = "Ayushganesh12345"; // Your MySQL password
+            String password = "**********"; // Your MySQL password
 
             c = DriverManager.getConnection(url, username, password);
             
